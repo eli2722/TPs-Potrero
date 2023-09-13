@@ -1,0 +1,39 @@
+body {background-color: #c0ecfc;}
+
+/*#92C1D3*/
+
+.tituloppal{
+	font-family: Harrington;
+	text-align: center;
+	font-size: 55px;
+	text-decoration: underline;
+	color: #0074c7;
+}
+
+.titulos{
+	font-family: fantasy;
+	font-size: 30px;
+	text-decoration: underline;
+	color: #0074c7;
+}
+
+.subtitulos{
+	font-family: arial;
+	font-size: 20px;
+	text-decoration: underline;
+
+}
+
+.textos{
+	font-family: Verdana;
+}
+
+.imagen{
+	border-radius: 8px;
+	width: 400px;
+	height: 250px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}

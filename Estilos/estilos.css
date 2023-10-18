@@ -1,6 +1,9 @@
-body {background-color: #c0ecfc;}
+body {
+	background: rgb(230,232,119);
+background: linear-gradient(0deg, rgba(230,232,119,1) 0%, rgba(92,234,235,1) 100%);
+}
 
-/*#92C1D3*/
+/*#92C1D3#c0ecfc;*/
 
 .tituloppal{
 	font-family: Harrington;
@@ -28,12 +31,54 @@ body {background-color: #c0ecfc;}
 	font-family: Verdana;
 }
 
+.menu_ppal,{
+
+font-family: Verdana;
+list-style:none;
+position: static;
+}
+
 .imagen{
 	border-radius: 8px;
 	width: 400px;
 	height: 250px;
-	display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
 
+.imagen_hd, .imagen_hd2{
+	width: 100px;
+	height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: static;
+}
+
+.btn_wsp_img{
+	width: 100px;
+	height: 100px;
+	border-radius: 8px;
+  	bottom: 10px;
+  	right: 10px;
+ 	z-index: 1000;
+  	transition: 0.3s;
+  	position: fixed;
+ }
+.btn_wsp_img:hover {
+  transform: scale(1.1);
+}
+
+.fotter_{
+font-family: Verdana;
+list-style:none;
+position: static;
+}
+
+.imagen_ftr{
+	width: 50px;
+	height: 50px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	position: static;
 }

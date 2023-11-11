@@ -1,113 +1,126 @@
-body {
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Playpen+Sans:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300&family=Playpen+Sans:wght@500&display=swap');
+
+
+body{
 	background: rgb(230,232,119);
 	background: linear-gradient(0deg, rgba(230,232,119,1) 0%, rgba(92,234,235,1) 100%);
 }
 
 /*#92C1D3#c0ecfc;*/
 
-.tituloppal{
-	font-family: Harrington;
-	text-align: center;
-	font-size: 55px;
-	text-decoration: underline;
-	color: #0074c7;
+h1{
+	font-family: 'Anton', sans-serif;
+	font-family: 'Playpen Sans', cursive;
+	
 }
-
-.titulos{
-	font-family: fantasy;
+.tituloppal{
+	font-family: 'Anton', sans-serif;
+	font-family: 'Playpen Sans', cursive;
+	text-align: center;
 	font-size: 30px;
 	text-decoration: underline;
 	color: #0074c7;
 }
 
+.titulos{
+	font-family: 'Anton', sans-serif;
+	font-family: 'Playpen Sans', cursive;
+	font-size: 25px;
+	text-decoration: underline;
+	color: #0074c7;
+}
+
 .subtitulos{
-	font-family: arial;
-	font-size: 20px;
+	font-family: 'Anton', sans-serif;
+font-family: 'Comfortaa', sans-serif;
+font-family: 'Playpen Sans', cursive;
+	font-size: 15px;
 	text-decoration: underline;
 
 }
 
 .textos{
-	font-family: Verdana;
+	font-family: 'Anton', sans-serif;
+font-family: 'Comfortaa', sans-serif;
+font-family: 'Playpen Sans', cursive;
 }
 
-.menu_ppal,{
+.contenedor_menu_ppal{
+	margin-top: 5%;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
 
-font-family: Verdana;
-list-style:none;
-position: static;
+.menu_ppal{
+	font-family: 'Anton', sans-serif;
+	font-family: 'Playpen Sans', cursive;
+	font-size: 20px;
+	margin: auto;
+	text-align: center;
+}
+.menu_ppal:visited{
+	color: black;
+}
+.menu_ppal:hover {
+  color: white;
+  background-color: black;
 }
 
 .imagen{
 	border-radius: 8px;
-	width: 400px;
-	height: 250px;
+	/*width: 400px;
+	height: 250px;*/
+	width: 40vw;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
 .imagen_hd, .imagen_hd2{
-	width: 100px;
-	height: 100px;
-  	margin-left: auto;
-  	margin-right: auto;
-  	position: static;
-  	border-radius: 10px;
-
+	/*width: 100px;
+	height: 100px;*/
+	width: 10vw;
+  margin-left: auto;
+  margin-right: auto;
+  position: static;
+  border-radius: 10px;
 }
 
 .btn_wsp_img{
-	width: 100px;
-	height: 100px;
-	border-radius: 8px;
-  	bottom: 10px;
-  	right: 10px;
+	/*width: 70px;
+	height: 70px;
+	border-radius: 8px;*/
+	width: 6vw;
+	border-radius: 1vw;
+  bottom: 10px;
+  right: 10px;
  	z-index: 1000;
-  	transition: 0.3s;
-  	position: fixed;
+  transition: 0.3s;
+  position: fixed;
  }
 .btn_wsp_img:hover {
   transform: scale(1.1);
 }
 
 .fotter_redes{
-font-family: Verdana;
 list-style:none;
 position: static;
 }
 
 .imagen_ftr{
-	width: 50px;
-	height: 50px;
+		/*width: 50px;
+		height: 50px;*/
+		width: 4vw;
   	margin-left: auto;
   	margin-right: auto; 
   	padding: 1px;
   	border-radius: 35px;
 }
-
-.ubicacion{
-	width: 230px;
-	height: 230px;
-  	margin-left: auto;
-  	margin-right: auto; 
-  	align-items: center;
-}
-.div_footer{
-	margin: auto;
-	justify-content: center;
-	align-items: center;
-}
-
-.texto_fotter{
-	font-family: Verdana;
-	list-style:none;
-	position: static;
-	width: 200px;
-	height: 200px;
-	margin: auto;
-	text-align: center;
-	margin-top: 50%;
+.imagen_ftr:hover {
+  transform: scale(1.1);
 }
 
 .header_{
@@ -118,7 +131,7 @@ position: static;
 }
 .header_redes{
 	margin: auto;
-  	display:flex;
+  display:flex;
 	flex-direction: row;
 }
 
@@ -128,4 +141,48 @@ position: static;
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
+	margin: auto;
+}
+
+.ubicacion{
+	/*width: 230px;
+	height: 230px;*/
+	width: 20vw;
+	height: 30vh;
+  margin-left: auto;
+  margin-right: auto; 
+  align-items: center;
+}
+
+.div_footer_info{
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.texto_fotter{
+	font-family: 'Anton', sans-serif;
+font-family: 'Comfortaa', sans-serif;
+font-family: 'Playpen Sans', cursive;
+	list-style:none;
+	width: 20vw;
+	margin: auto;
+	text-align: center;
+}
+
+.contacto{
+	font-family: 'Anton', sans-serif;
+font-family: 'Comfortaa', sans-serif;
+font-family: 'Playpen Sans', cursive;
+	font-size: 20px;	
+	margin: auto;
+	text-align: center;
+	margin-left: 32%;
+}
+.contacto:visited{
+	color: black;
+}
+.contacto:hover {
+  color: white;
+  background-color: black;
 }

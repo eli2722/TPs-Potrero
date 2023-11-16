@@ -32,15 +32,14 @@ h1{
 	font-family: 'Anton', sans-serif;
 	font-family: 'Playpen Sans', cursive;
 	text-shadow: 1px 1px 2px white;
-	
+	font-size: 10vw;
 }
 .tituloppal{
 	font-family: 'Anton', sans-serif;
 	font-family: 'Playpen Sans', cursive;
 	text-align: center;
-	font-size: 30px;
-	text-shadow: 1px 1px 2px white;
-	text-decoration: underline;
+	font-size: 35px	;
+	text-shadow: 1px 1px 2px white;	
 	color: #0074c7;
 }
 
@@ -78,6 +77,7 @@ color: white;
 	flex-direction: row;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	color: red;
 }
 
 .menu_ppal{
@@ -87,6 +87,7 @@ color: white;
 	text-shadow: 1px 1px 2px white;
 	margin: auto;
 	text-align: center;
+	color: red;
 }
 .menu_ppal:link{
 	color: black;
@@ -204,6 +205,11 @@ font-family: 'Playpen Sans', cursive;
 	text-align: center;
 }
 
+.boton_info{
+	margin: auto;
+	text-align: center;
+	margin-left: 32%;
+}
 .contacto{
 	font-family: 'Anton', sans-serif;
 	font-family: 'Comfortaa', sans-serif;
@@ -214,6 +220,7 @@ font-family: 'Playpen Sans', cursive;
 	text-align: center;
 	margin-left: 32%;
 }
+
 .contacto:link{
 	color: white;
 	text-shadow: 1px 1px 2px black;	
@@ -239,4 +246,21 @@ font-family: 'Playpen Sans', cursive;
 
 .all_card:hover {
   transform: scale(1.1);
+}
+
+.boton_mod_oscuro{
+	background-color: #555555;
+	height: 30px;
+	border-radius: 12px;
+	color: white;
+  border: 2px solid white;
+  	margin: auto;
+  display:flex;
+	flex-direction: row;
+}
+
+.boton_mod_oscuro:hover {
+  background-color: white; 
+  color: black;
+  border: 2px solid black;
 }

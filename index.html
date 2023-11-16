@@ -9,14 +9,17 @@
 	<link rel="stylesheet" href="./Estilos/estilos.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 	<title>SIRIA</title>
+	<script>
+		alert("BIENVENIDOS AL MEJOR LUGAR DE RECETAS DE LA COMUNIDAD SIRIA")   
+	</script>
 </head>
 <body> 
 <div class="div_contenedor_ppal">
-
+<div id="div_contenedor_ppal">
 	<header class="header_">
 		<img class="imagen_hd" src="./imagenes/banderas.jpg" alt="Bandera">	
 		
-		<h1> COMUNIDAD SIRIA </h1>
+		<h1 id="letra_inclusiva"> COMUNIDAD SIRIA </h1>
 		<div class="header_redes">
 			<a href="https://www.facebook.com"target="_blank"><img class="imagen_ftr" src="./imagenes/facebook.png" alt="Facebook" /></a>
 		    <a href="https://www.instagram.com"target="_blank"><img class="imagen_ftr" src="./imagenes/instagram.jpg" alt="Instagram" /></a>
@@ -24,10 +27,11 @@
 		    
 		</div>
 	    <!--<img class="imagen_hd2" src="./imagenes/bandera_arg.jpg" alt="Bandera">-->
+	    <button class="boton_mod_oscuro" onclick="cambiarfondo()">MODO OSCURO</button>
 	</header>
 
 	<nav class="contenedor_menu_ppal"> 
-		<a href="https://www.paulinacocina.net/empanadas-arabes-receta-fatay/21651"target="_blank" class="menu_ppal">Fatay</a>
+		<a href="https://www.paulinacocina.net/empanadas-arabes-receta-fatay/21651"target="_blank" class="menu_ppal" id="letra_inclusiva">Fatay</a>
 		<a href="https://www.paulinacocina.net/hummus-receta/4965"target="_blank" class="menu_ppal">Hummus de Garbanzos</a>
 		<a href="https://www.paulinacocina.net/tabule-la-ensalada-arabe-mas-famosa/1862"target="_blank" class="menu_ppal">Tabule</a>
 		<a href="https://elgourmet.com/recetas/kefta-kebab/"target="_blank" class="menu_ppal">Kebab</a>
@@ -144,6 +148,8 @@
 	<div class="div_footer_info" >		
 		<h5 class="texto_fotter">Eliana Archilla - TEL:+54-2915010483 - 14 de Julio 500,Bahía Blanca, Buenos Aires, Argentina</h5>
 		<a href="./contactos.html" class="contacto">CONTACTO</a>
+		<button class="boton_info" onclick="verinfo()">VER INFO</button>
+
 	</div>
 
 	<!--<ul class="fotter_">
@@ -155,9 +161,11 @@
 
 <a href="https://api.whatsapp.com/send?phone=5492915010483" target="_blank"><img class="btn_wsp_img" src="./imagenes/wsp.png" alt="Whatsapp" /></a>
 </div>	
+</div>	
 
 	
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<script src="./js/script.js"></script>
 </body>
 </html>

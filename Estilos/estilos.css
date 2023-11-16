@@ -101,6 +101,8 @@ color: white;
 
 .imagen{
 	border-radius: 8px;
+	border: white;
+	border-style: solid;
 	/*width: 400px;
 	height: 250px;*/
 	width: 40vw;
@@ -229,4 +231,12 @@ font-family: 'Playpen Sans', cursive;
 .info_celu{
 	text-align: center;
 	text-shadow: 1px 1px 2px white;	
+}
+
+.img_card{
+	margin-top: 5px;
+}
+
+.all_card:hover {
+  transform: scale(1.1);
 }
